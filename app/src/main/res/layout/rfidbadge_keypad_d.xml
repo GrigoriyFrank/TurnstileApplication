@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.RFIDbadgeKeypadD">
+
+    <Button
+        android:id="@+id/rfid_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/DEL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/rfid_ok_button" />
+
+    <Button
+        android:id="@+id/button_F"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/F"
+        app:layout_constraintBottom_toTopOf="@+id/rfid_delete_button"
+        app:layout_constraintStart_toEndOf="@+id/button_E" />
+
+    <Button
+        android:id="@+id/button_E"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/E"
+        app:layout_constraintBottom_toTopOf="@+id/rfid_delete_button"
+        app:layout_constraintStart_toEndOf="@+id/button_D" />
+
+    <Button
+        android:id="@+id/button_D"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:text="@string/D"
+        app:layout_constraintBottom_toTopOf="@+id/rfid_delete_button"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/button_C"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/C"
+        app:layout_constraintBottom_toTopOf="@+id/rfid_cancel_button"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/button_B"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/B"
+        app:layout_constraintBottom_toTopOf="@+id/rfid_cancel_button"
+        app:layout_constraintEnd_toStartOf="@+id/button_C" />
+
+    <Button
+        android:id="@+id/button_A"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/A"
+        app:layout_constraintBottom_toTopOf="@+id/rfid_cancel_button"
+        app:layout_constraintEnd_toStartOf="@+id/button_B" />
+
+    <TextView
+        android:id="@+id/rfid_con_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/rfid_conversion"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/apply_sticker_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/apply_sticker_and_type_old_number"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rfid_con_textview" />
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/_1"
+        app:layout_constraintBottom_toTopOf="@+id/button_A"
+        app:layout_constraintEnd_toStartOf="@+id/button_two" />
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/_2"
+        app:layout_constraintBottom_toTopOf="@+id/button_A"
+        app:layout_constraintEnd_toStartOf="@+id/button_three" />
+
+    <Button
+        android:id="@+id/button_three"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/_3"
+        app:layout_constraintBottom_toTopOf="@+id/button_B"
+        app:layout_constraintEnd_toStartOf="@+id/button_four" />
+
+    <Button
+        android:id="@+id/button_four"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/_4"
+        app:layout_constraintBottom_toTopOf="@+id/button_B"
+        app:layout_constraintEnd_toStartOf="@+id/button_five" />
+
+    <Button
+        android:id="@+id/button_five"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/_5"
+        app:layout_constraintBottom_toTopOf="@+id/button_C"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/button_six"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:text="@string/_6"
+        app:layout_constraintBottom_toTopOf="@+id/button_D"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/button_seven"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/_7"
+        app:layout_constraintBottom_toTopOf="@+id/button_E"
+        app:layout_constraintStart_toEndOf="@+id/button_six" />
+
+    <Button
+        android:id="@+id/button_eight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/_8"
+        app:layout_constraintBottom_toTopOf="@+id/button_E"
+        app:layout_constraintStart_toEndOf="@+id/button_seven" />
+
+    <Button
+        android:id="@+id/button_nine"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/_9"
+        app:layout_constraintBottom_toTopOf="@+id/button_F"
+        app:layout_constraintStart_toEndOf="@+id/button_eight" />
+
+    <Button
+        android:id="@+id/button_zero"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/_0"
+        app:layout_constraintBottom_toTopOf="@+id/button_F"
+        app:layout_constraintStart_toEndOf="@+id/button_nine" />
+
+    <Button
+        android:id="@+id/rfid_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/rfid_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/type_edit_text"
+        android:layout_width="233dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/_10_digits_max"
+        android:textSize="32sp"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apply_sticker_textview" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+</android.support.constraint.ConstraintLayout>

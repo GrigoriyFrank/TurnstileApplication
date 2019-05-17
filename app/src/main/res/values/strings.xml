@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MobiTime Go</string>
+
+    <!-- For nfc -->
+    <string name="intro_message_nfc">TESTING LAUNCH OF NFC READING\n\n\n</string>
+    <string name="error">Error</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="nfc_disabled">NFC is not enabled. Please go to the settings to enable it.</string>
+    <string name="menu_main_clear_title">Clear all</string>
+    <string name="menu_main_copy">Copy IDs</string>
+    <string name="menu_copy_hex">Hex</string>
+    <string name="menu_copy_reversed_hex">Reversed hex</string>
+    <string name="menu_copy_dec">Dec</string>
+    <string name="menu_copy_reversed_dec">Reversed dec</string>
+    <string name="nothing_scanned">Nothing scanned yet</string>
+
+    <!--///////////-->
+    <!--For Screens-->
+    <!--///////////-->
+
+    <!--For Scan Screen -->
+    <string name="please_scan">PLEASE SCAN</string>
+    <string name="for_testing">For testing</string>
+
+    <!--For StartUp Screen -->
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="www_mobitime_net">WWW.MOBITIME.NET</string>
+    <string name="mobitime_version">V 1.02</string>
+    <string name="loading_please_wait">LOADING… PLEASE WAIT</string>
+    <string name="system_deactivated">System Deactivated Please Contact Support</string>
+    <string name="telephone_number">+32 71 701612</string>
+
+
+    <!--For RFID badge keypad Screen -->
+    <string name="DEL">DEL</string>
+    <string name="F">F</string>
+    <string name="E">E</string>
+    <string name="D">D</string>
+    <string name="C">C</string>
+    <string name="B">B</string>
+    <string name="A">A</string>
+    <string name="apply_sticker_and_type_old_number">APPLY STICKER AND TYPE OLD NUMBER</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="ok">OK</string>
+    <string name="_10_digits_max">10 Digits max</string>
+
+    <!--For Main Screen -->
+    <string name="default_company_name">COMPANY NAME</string>
+    <string name="default_site_name">Site Name</string>
+    <string name="default_tickermessage_160chars">TickerMessage(160chars)</string>
+    <string name="default_signal_strength">T0</string>
+    <string name="default_serial_number">MXG-34</string>
+
+    <!--For Confirmation Screen -->
+    <string name="touch_the_screen_to_return">Touch the screen to return</string>
+    <string name="out_of_hours">OUT OF HOURS</string>
+    <string name="default_sorry_welcome">GOODBYE/WELCOME</string>
+    <string name="default_name">Name</string>
+    <string name="default_randstad">(RANDSTAD)</string>
+    <string name="default_telephone_number">Telephone number</string>
+    <string name="default_inss">INSS OK</string>
+    <string name="good_bye">GOOD BYE</string>
+    <string name="inss_ok">OK</string>
+    <string name="inss_ko">KO</string>
+
+    <!--For more then one  Screen -->
+    <string name="rfid_conversion">RFID CONVERSION</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome">WELCOME</string>
+
+
+    <!--/////////////////////////////////////////////////////-->
+    <!--Describe for intents what to read/put in JSON objects-->
+    <!--/////////////////////////////////////////////////////-->
+
+    <!--registerSystems input-->
+    <string name="hwaddr_json">HWADDR</string>
+    <string name="latitude_json">Latitude</string>
+    <string name="longitude_json">Longitude</string>
+    <string name="version_json">VersionNumber</string>
+    <string name="light_sensor_json">LightSensor</string>
+
+    <!--regyster/systems output-->
+    <string name="welcome_screen_seconds_json">WelcomeScreenSeconds</string>
+    <string name="relay_time_seconds_json">RelayTimeSeconds</string>
+    <string name="language_json">Language</string>
+    <string name="company_name_json">CompanyName</string>
+    <string name="site_name_json">SiteName</string>
+    <string name="custom_message_json">CustomMessage</string>
+    <string name="keep_alive_time_json">KeepAliveTime</string>
+    <string name="serialnumber_systems_json">SerialNumber</string>
+    <string name="force_relay_json">ForceRelay</string>
+    <string name="always_mode_json">AlwaysMode</string>
+    <string name="relay_feature_json">RelayFeature</string>
+    <string name="blocked_message_json">BlockedMessage</string>
+    <string name="force_update_json">ForceUpdate</string>
+    <string name="blocked_json">Blocked</string>
+    <string name="conf_screens_seconds_json">ConfScreensSeconds</string>
+
+    <!--registerTeam input -->
+    <string name="serialnumber_team_json">SerialNumber</string>
+    <string name="data_source_json">DataSource</string>
+    <string name="direction_json">Direction</string>
+    <string name="data_read_json">DataRead</string>
+    <string name="rfidref_json">RFIDRef</string>
+    <string name="date_json">Date</string>
+
+    <!--registerTeam output -->
+    <string name="inss_valid_json">InssValid</string>
+    <string name="name_json">Name</string>
+    <string name="company_json">Company</string>
+    <string name="error_message_json">ErrorMessage</string>
+    <string name="access_json">Access</string>
+    <string name="inss_json">INSS</string>
+
+    <!--/////////////////////////////////////////////////////-->
+    <!--Scan Formats-->
+    <!--/////////////////////////////////////////////////////-->
+    <string name="nfc">NFC</string>
+    <string name="_1d">1D</string>
+    <string name="qr">QR</string>
+    <string name="unsupported_format">UNSUPPORTED FORMAT</string>
+    <string name="title_activity_help_screen">HelpScreen</string>
+
+</resources>

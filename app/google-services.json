@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "988053054971",
+    "firebase_url": "https://mobitimego.firebaseio.com",
+    "project_id": "mobitimego",
+    "storage_bucket": "mobitimego.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988053054971:android:9988f65d826c5574",
+        "android_client_info": {
+          "package_name": "com.sebastiendui.mobitimego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988053054971-cml805b1o8c58f9edc8dfe4n9old04qi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sebastiendui.mobitimego",
+            "certificate_hash": "1cec2243d7c1c6dd3fa620e08cdb8f7f384650d4"
+          }
+        },
+        {
+          "client_id": "988053054971-f958r346019fnqadohaih46een5bd0m1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNW_qzTT_lz9IrlcbYidUbXBQy5hG3KS8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988053054971-f958r346019fnqadohaih46een5bd0m1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
